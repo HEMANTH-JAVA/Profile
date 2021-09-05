@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="shortcut icon" href="img/icon.png" /> 
+<Title>HEMANTH GURAM</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.con {
+  width: 100%;
+  background-color: #ddd;
+}
+
+
+.butn {
+  background-color: #FFA500; 
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+.button1 {border-radius: 12px;}
+.button2 {border-radius: 12px;}
+.button3 {border-radius: 12px;}
+.button4 {border-radius: 12px;}
+.button5 {border-radius: 12px;}
+.button6 {border-radius: 12px;}
+.button7 {border-radius: 12px;}
+.button8 {border-radius: 12px;}
+.butn9 {border-radius: 50%;}
+.butn10 {border-radius: 50%;}
+.butn11 {border-radius: 50%;}
+.butn12 {border-radius: 50%;}
+.butn13 {border-radius: 50%;}
+.butn14 {border-radius: 50%;}
+.butn15 {border-radius: 50%;}
+.butn16 {border-radius: 50%;}
+
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.JAVA {width: 85%; background-color: #4CAF50;}
+.SQL {width: 70%; background-color: #2196F3;}
+.HTML {width: 90%; background-color: #f44336;}
+.CSS {width: 80%; background-color: #808080;}
+.DS {width: 85%; background-color: orange}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.iv {
+  width: 10px;
+  height: 10px;
+  background: violet;
+  position: relative;
+  -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+  animation: mymove 5s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+  from {left: 0px;}
+  to {left: 100%;}
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 100%;}
+}
+
+.image {
+   border-radius: 50%;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: MediumSeaGreen;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color: #33b5e5;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: Black;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <center><img src="img/Hemanth.jpeg" alt="Hemanth" class="image" style="width:10%">
+  <h1>Hemanth Gurram Profile</h1>
+  <p>Hii, This is hemanth.I am from AndhraPradesh, Currently I am pursuing my M.Tech integrated Software Engineering (5 years) in VIT Vellore. When Coming to my educational background I have completed my schooling in Andhrapradesh with 92% and I have completed my intermediate with 97.6%. And in my academics I have done several  projects and some of those are Disasater Management System, Detection of spam Email using CART analysis,Effective Job Application portal using Java. My present skills, I have a great exposure on java, SQL, Data Structures, html, css. And Coming to my experience currently I am working as an intern at powerschool.</p>
+</center>
+</div>
+
+<div class="row" style="background: #F0F8FF">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Exper">Experience</a></li>
+      <li><a href="#Skills">Skills</a></li>
+      <li><a href="#Projects">Project worked on</a></li>
+      <li><a href="#Interest">Technical interest</a></li>
+      <li><a href="#Hobbies">Hobbies</a></li>
+      <li><a href="#Achievements">Achievements & Awards</a></li>
+      <li><a href="#Languages">Languages Known</a></li>
+    </ul>
+  </div>
+
+  <div class="col-6 col-s-9" style="background:	#F0F8FF">
+
+<!-- About -->
+
+    <h1 id="About"><b><u>About</u></b></h1>
+     <p>As a recent graduate, I am seeking a role which allows me to continue learning and perfecting my skills as I provide high-quality work, and encourages me to flourish as a Software engineer.</p>
+
+</div>
+
+   <div class="col-3 col-s-12" style="background: #F0F8FF">
+    <div class="aside">
+      <h2>What?</h2>
+      <p>"Hemanth" mean Gold.</p>
+      <h2>Where?</h2>
+      <p>Hemanth is from Andra Pradesh.</p>
+      <h2>How?</h2>
+      <p>Hemanth had decided his goals, he will work hard to achice it.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Experience -->
+<div class="col-12 col-s-12">
+<hr>
+    <center><h1 id="Exper"><b><u>Experience</u></b></h1></center>
+    <div class="col-12 col-s-12">
+    <p><center><img src="img/Techciti.png" alt="Avatar" class="image" style="width:10%">
+    </br><b>Intern</b></br></br>TechCiti</br>Bangalore, India</br></br></br><b>Description:</b> Worked as intern in techCity and done my
+    internship project using java</center></p>
+ </div>
+</div>
+
+<hr>
+<!-- Education qualification -->
+<div class="col-12 col-s-12" style="background:#FAF0E6">
+
+    <center><h1 id="Education"><b><u>Education</u></b></h1></center>
+    <p><center><img src="img/vit.png" alt="Avatar" class="image" style="width:10%">
+    </br>Vellore Institute Of Technology (Vellore)</br>M.Tech Software Engineering</br>2017-2022</center></p>
+</div>
+<hr>
+<div class="col-12 col-s-12" style="background:#F8F8FF">
+<!-- Skills -->
+
+<center><h1 id="Skills"><b><u>My Skills</u></b></h1></center>
+</br><br>
+<center><p>JAVA</p></center>
+<div class="con">
+  <div class="skills JAVA">85%</div>
+</div>
+
+<center><p>SQL</p></center>
+<div class="con">
+  <div class="skills SQL">70%</div>
+</div>
+
+<center><p>HTML</p></center>
+<div class="con">
+  <div class="skills HTML">90%</div>
+</div>
+
+<center><p>CSS</p></center>
+<div class="con">
+  <div class="skills CSS">80%</div>
+</div>
+
+<center><p>Data Structures</p></center>
+<div class="con">
+   <div class="skills DS">85%</div></div>
+
+</div>
+
+
+<hr>
+<div class="col-12 col-s-12" style="background:SlateBlue">
+
+<center><h1 id="Projects"><b><u>Completed Project</u></b></h1></center></br></br>
+<h3><b>1) Spam emails detection using datamining algorithms</b></h3>
+<p>This project is built for detecting spam emails. In this project I have used Naive Bayes and CART Analysis to detect spam emails</p>
+
+</br></br>
+<h3><b>2) Effective Job Application Portal</b></h3>
+<p>The main idea of this project is the website built is used by both job provider and job seekers and job providers will be able to post jobs in here and seeker will be able to apply for them.</p>
+<p> - I have built this project using Java </p>
+<p> - I have built backend and task logics using Java</p> 
+<p> - For front end I have used HTML and CSS</p>
+
+
+</br></br>
+<h3><b>3) Disaster Management System</b></h3>
+<p>This project was built using netbeans and java</p>
+<p> - It is a victim identification system during disasters.</p>
+</div>
+<hr>
+
+<div class="col-12 col-s-12">
+<center>
+<h1 id="Interest"><u>Technical Skills</u></h1>
+<button class="button button1">Data Structures and Algorithms</button>
+<button class="button button2"> JAVA</button>
+<button class="button button3"> HTML</button>
+<button class="button button4"> CSS</button>
+<button class="button button5"> SQL</button>
+<button class="button button7"> SDLC (Software development life cycle)</button>
+</br></div>
+
+<hr>
+
+<div class="col-12 col-s-12 iv"></div>
+<div class="col-12 col-s-12">
+<center><h1 id="Hobbies"><b><u>Hobbies</u></b></h1></center>
+<center>
+<button class="butn butn9"> Reading </button>
+<button class="butn butn10"> Researching new things</button>
+<button class="butn butn11"> Sports </button>
+<button class="butn butn12"> astronomy </button>
+<button class="butn butn13"> Music </button>
+<button class="butn butn14"> Movies </button>
+</center></div>
+
+<hr>
+<!-- ACHIEVEMENTS & AWARDS -->
+<div class="col-12 col-s-12">
+    <center><h1 id="Achievements"><b><u>Achievements & Awards</u></b></h1></center>
+    <div class="col-12 col-s-12">
+    <center>
+    1) Qualified AP-EAMSET with rank of 13,365.</br><br> 2) Completed intermediate with more than 97 percentage.</center>
+ </div>
+</div>
+<hr>
+
+<!-- Languages -->
+<div class="col-12 col-s-12">
+    <center><h1 id="Languages"><b><u>Languages Known</u></b></h1></center>
+    <div class="col-12 col-s-12">
+    <center>
+      1) English<br><br>
+      2) Telugu <br><br>
+      3) Hindi(basic)<br><br>
+    </center>
+ </div>
+</div>
+<hr>
+
+<div class="col-12 col-s-12" style="background:Black">
+<center>
+<p style="color:white"><span style="font-size:12px">Social Media Link</span></p>
+</center>
+
+<p style="text-align:center">
+
+<!--Phone icon-->
+<a href="tel:+91 7780443059"><img alt="" src="img/phone.png" style="height:30px; width:30px" /> </a>&nbsp; &nbsp; &nbsp;
+
+<!--mail icon-->
+<a href="mailto:gurramhemanth.kumar2017@vitstudent.ac.in" target="_blank"><img alt="" src="img/mail.png" style="height:30px; width:30px" /> </a>&nbsp; &nbsp;&nbsp;
+
+<!--Linkedin icon-->
+<a href="https://www.linkedin.com/in/gurram-hemanth-a9b99b152/" target="_blank"><img alt="" src="img/LinkedIn.png" style="height:30px; width:30px" /> </a>
+</p>
+<center>
+<p style="color:white;">Created By Hemanth &copy; 2021</p>
+</center>
+</div>
+
+</body>
+</html>
